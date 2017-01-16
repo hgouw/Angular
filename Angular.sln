@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BindingExpression", "Bindin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controller", "Controller\Controller.csproj", "{87EBC849-67C7-41D2-A626-F0AD7A5EE3C8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBinding", "DataBinding\DataBinding.csproj", "{4AB0AFFF-E667-41EE-87C8-AE0BCEBBBDC0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{87EBC849-67C7-41D2-A626-F0AD7A5EE3C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87EBC849-67C7-41D2-A626-F0AD7A5EE3C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87EBC849-67C7-41D2-A626-F0AD7A5EE3C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AB0AFFF-E667-41EE-87C8-AE0BCEBBBDC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AB0AFFF-E667-41EE-87C8-AE0BCEBBBDC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AB0AFFF-E667-41EE-87C8-AE0BCEBBBDC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AB0AFFF-E667-41EE-87C8-AE0BCEBBBDC0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
