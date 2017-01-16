@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <script src="Scripts/angular.js"></script>
+    <script src="Scripts/Test.js"></script>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body  ng-app="myModule" style="font-family:Arial">
+    <div ng-controller="myController">
+        <table>
+            <thead>
+                <tr>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="member in members">
+                    <td>{{ member.firstName }}</td>
+                    <td>{{ member.lastName }}</td>
+                    <td>{{ member.age }}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div ng-controller="myController">
+        <ul>
+            <li ng-repeat="family in families" ng-init="parentIndex=$index">
+                {{ family.parents }} - Index = {{ $index }}
+                <ul>
+                    <li ng-repeat="child in family.children">
+                        {{ child.firstName }} - Parent Index = {{ parentIndex }},  Index = {{ $index }}
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
