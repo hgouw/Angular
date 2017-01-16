@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html ng-app="myModule">
+<head>
+    <script src="Scripts/angular.min.js"></script>
+    <script src="Scripts/Test.js"></script>
+    <title></title>
+    <meta charset="utf-8" />
+</head>
+<body>
+    <div ng-controller="myController">
+        <div>
+            First Name: {{ employee.firstName}}
+        </div>
+        <div>
+            Last Name: {{ employee.lastName }}
+        </div>
+        <div>
+            Gender: {{ employee.gender}}
+        </div>
+        {{ message }}
+    </div>
+</body>
+</html>
