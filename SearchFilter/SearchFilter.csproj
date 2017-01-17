@@ -79,6 +79,7 @@
     <Content Include="Scripts\angular-mocks.js" />
     <Content Include="Scripts\angular.js" />
     <Content Include="Scripts\angular.min.js" />
+    <Content Include="Scripts\Filters.js" />
     <Content Include="Scripts\Test.js" />
     <Content Include="Styles.css" />
     <Content Include="Test.html" />
