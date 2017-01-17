@@ -13,6 +13,35 @@ var myApp = angular
 
                     var families = [
                          {
+                             parents: "Agus & Siuling",
+                             children: [
+                                 { firstName: "Matthew" },
+                                 { firstName: "Joshua" }
+                             ]
+                         },
+                         {
+                             parents: "Denny & Christine",
+                             children: [
+                                 { firstName: "Adrian" },
+                                 { firstName: "Irma" },
+                                 { firstName: "Michael" }
+                             ]
+                         },
+                         {
+                             parents: "Mark & Elly",
+                             children: [
+                                 { firstName: "Cheryl" },
+                                 { firstName: "Farris" }
+                             ]
+                         },
+                         {
+                             parents: "Sunny & Sandra",
+                             children: [
+                                 { firstName: "Carisa" },
+                                 { firstName: "Reyhan" }
+                             ]
+                         },
+                         {
                             parents: "Herman & Helen",
                             children: [
                                 { firstName: "Sarah" },
