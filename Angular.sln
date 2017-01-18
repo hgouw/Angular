@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsumeWebService", "Consum
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomService", "CustomService\CustomService.csproj", "{8CD92D60-70EB-42DE-BFED-087C4A42D998}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Routing", "Routing\Routing.csproj", "{4A1556E7-D50A-4652-AB17-6FCD65840303}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{8CD92D60-70EB-42DE-BFED-087C4A42D998}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8CD92D60-70EB-42DE-BFED-087C4A42D998}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8CD92D60-70EB-42DE-BFED-087C4A42D998}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A1556E7-D50A-4652-AB17-6FCD65840303}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A1556E7-D50A-4652-AB17-6FCD65840303}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A1556E7-D50A-4652-AB17-6FCD65840303}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A1556E7-D50A-4652-AB17-6FCD65840303}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
