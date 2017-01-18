@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <script src="Scripts/angular.min.js"></script>
+    <script src="Scripts/Test.js"></script>
+    <link href="Styles.css" rel="stylesheet" />
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body ng-app="myModule">
+    <div ng-controller="myController">
+        <table>
+            <thead>
+                <tr>
+                    <th>Code</th>
+                    <th>Name</th>
+                    <th>Group</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="company in companies">
+                    <td> {{ company.Code }} </td>
+                    <td> {{ company.Name }} </td>
+                    <td> {{ company.Group }} </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
