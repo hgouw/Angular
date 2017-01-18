@@ -14,6 +14,9 @@ var app = angular.module("myModule", ["ngRoute"])
                         .when("/students", {
                             templateUrl: "Templates/Students.html",
                             controller: "studentsController"
+                        })
+                        .otherwise({
+                            redirectTo: "/home"
                         });
                      $locationProvider.html5Mode(true);
                  })
