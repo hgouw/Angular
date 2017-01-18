@@ -1,4 +1,5 @@
 ﻿/// <reference path="angular.js" />
+/// <reference path="angular-route.js" />
 
 var app = angular.module("myModule", ["ngRoute"])
                  .config(function ($routeProvider, $locationProvider) {
