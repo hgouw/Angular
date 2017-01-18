@@ -9,5 +9,8 @@ var myApp = angular
                          .then(function (response) {
                              $scope.companies = response.data;
                              $log.info(response); //useful for debugging
+                         }, function (reason) {
+                             $scope.error = reason.data;
+                             $log.info(reason);
                          });
                 });
