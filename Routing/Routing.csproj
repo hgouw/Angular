@@ -86,6 +86,7 @@
     <Content Include="Styles.css" />
     <Content Include="Templates\Courses.html" />
     <Content Include="Templates\Home.html" />
+    <Content Include="Templates\StudentDetails.html" />
     <Content Include="Templates\Students.html" />
     <Content Include="Web.config" />
   </ItemGroup>

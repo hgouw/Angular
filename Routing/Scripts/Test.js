@@ -16,6 +16,10 @@ var app = angular.module("myModule", ["ngRoute"])
                             templateUrl: "Templates/Students.html",
                             controller: "studentsController"
                         })
+                        .when("/students/:id", {
+                            templateUrl: "Templates/StudentDetails.html",
+                            controller: "studentDetailsController"
+                        })
                         .otherwise({
                             redirectTo: "/home"
                         });
@@ -33,5 +37,10 @@ var app = angular.module("myModule", ["ngRoute"])
                         { id: 2, name: "Goran" },
                         { id: 3, name: "Herman" },
                         { id: 4, name: "Michael" }
+                     ];
+                 })
+                 .controller("studentDetailsController", function ($scope) {
+                     $scope.student = [
+                        { id: 3, name: "Herman" }
                      ];
                  });
