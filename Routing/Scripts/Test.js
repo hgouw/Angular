@@ -28,5 +28,10 @@ var app = angular.module("myModule", ["ngRoute"])
                      $scope.courses = ["C#", ".NET", "LINQ", "Entity Framework", "SQL Server", "Azure"];;
                  })
                  .controller("studentsController", function ($scope) {
-                     $scope.students = ["Fergus", "Goran", "Herman", "Michael"];
+                     $scope.students = [
+                        { id: 1, name: "Fergus" },
+                        { id: 2, name: "Goran" },
+                        { id: 3, name: "Herman" },
+                        { id: 4, name: "Michael" }
+                     ];
                  });
