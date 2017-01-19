@@ -16,7 +16,10 @@ var myApp = angular
                         $log.info(reason);
                     }
 
-                    $http({ method: 'GET', url: 'CompanyService.asmx/GetAllCompanies' })
+                    $http({
+                        method: "GET",
+                        url: "CompanyService.asmx/GetAllCompanies"
+                    })
                          //.then(function (response) {
                          //    $scope.companies = response.data;
                          //    $log.info(response); //useful for debugging
