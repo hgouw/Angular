@@ -79,8 +79,10 @@
     <Content Include="Scripts\angular-mocks.js" />
     <Content Include="Scripts\angular.js" />
     <Content Include="Scripts\angular.min.js" />
-    <Content Include="Scripts\Test.js" />
-    <Content Include="Test.html" />
+    <Content Include="Scripts\Test1.js" />
+    <Content Include="Scripts\Test2.js" />
+    <Content Include="Test1.html" />
+    <Content Include="Test2.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
