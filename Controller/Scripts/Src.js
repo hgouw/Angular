@@ -7,7 +7,7 @@ var myApp = angular
                     var country = {
                         name: 'Australia',
                         capital: 'Canberra',
-                        flag: '/Images/aus1-flag.jpg'
+                        flag: '/Images/aus-flag.jpg'
                     };
                     $scope.country = country;
                 });
