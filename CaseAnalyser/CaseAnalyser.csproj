@@ -76,12 +76,18 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="iLabsService.asmx" />
     <Content Include="Scripts\angular-mocks.js" />
     <Content Include="Scripts\angular.js" />
     <Content Include="Scripts\angular.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="iLabsObjects.cs" />
+    <Compile Include="iLabsService.asmx.cs">
+      <DependentUpon>iLabsService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <PropertyGroup>
