@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Routing", "Routing\Routing.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PromiseChaining", "PromiseChaining\PromiseChaining.csproj", "{A6BB6EA1-352B-459A-A152-D3CB2A4100D6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaseAnalyser", "CaseAnalyser\CaseAnalyser.csproj", "{EB0320E4-29ED-49DE-9F64-1D8E613ACD40}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{A6BB6EA1-352B-459A-A152-D3CB2A4100D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6BB6EA1-352B-459A-A152-D3CB2A4100D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6BB6EA1-352B-459A-A152-D3CB2A4100D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB0320E4-29ED-49DE-9F64-1D8E613ACD40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB0320E4-29ED-49DE-9F64-1D8E613ACD40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB0320E4-29ED-49DE-9F64-1D8E613ACD40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB0320E4-29ED-49DE-9F64-1D8E613ACD40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
