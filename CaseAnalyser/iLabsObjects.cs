@@ -1,12 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 
 namespace CaseAnalyser
 {
     public class iLabsObjects
     {
+        public List<iLabsDocument> iLabsDocuments { get; set; }
         public List<iLabsJudgementDate> iLabsJudgementDates { get; set; }
         public List<iLabsPracticeArea> iLabsPracticeAreas { get; set; }
         public List<iLabsPracticeSubArea> iLabsPracticeSubAreas { get; set; }
@@ -20,6 +19,30 @@ namespace CaseAnalyser
         public List<iLabsWordsPhrase> iLabsWordsPhrases { get; set; }
         public List<iLabsLegislation> iLabsLegislations { get; set; }
         public List<iLabsPartyName> iLabsPartyNames { get; set; }
+    }
+
+    public class iLabsDocument
+    {
+        public string CaseName { get; set; }
+        public DateTime JudgementDate { get; set; }
+        public string CasebaseSignal { get; set; }
+        public string CourtName { get; set; }
+        public int CitationScore { get; set; }
+        public string PartyNames { get; set; }
+        public string Citations { get; set; }
+        public string JudgeNames { get; set; }
+        public string ApplicationType { get; set; }
+        public string OutcomeType { get; set; }
+        public string OutcomeSubType { get; set; }
+        public string CourtAppealedFrom { get; set; }
+        public string CourtAppealedFromType { get; set; }
+        public string PracticeArea { get; set; }
+        public string PracticeSubAreas { get; set; }
+        public string WordsPhrases { get; set; }
+        public string Representatives { get; set; }
+        public string Legislation { get; set; }
+        public string Order { get; set; }
+        public string MostRecentCiting { get; set; }
     }
 
     public class iLabsJudgementDate
