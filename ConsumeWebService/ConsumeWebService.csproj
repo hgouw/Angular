@@ -67,6 +67,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+    <Content Include="Scripts\angular-mocks.js" />
+    <Content Include="Scripts\angular.js" />
+    <Content Include="Scripts\angular.min.js" />
     <Content Include="Scripts\angular.min.js.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -77,9 +80,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="CompanyService.asmx" />
-    <Content Include="Scripts\angular-mocks.js" />
-    <Content Include="Scripts\angular.js" />
-    <Content Include="Scripts\angular.min.js" />
     <Content Include="Scripts\Test.js" />
     <Content Include="Styles.css" />
     <Content Include="Test.html" />
