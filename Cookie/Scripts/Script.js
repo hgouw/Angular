@@ -1,4 +1,5 @@
 ﻿/// <reference path="angular.js" />
+/// <reference path="angular-cookies.js" />
 
 var myApp = angular
                 .module("myModule", [])
