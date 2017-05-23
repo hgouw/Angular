@@ -2,15 +2,14 @@
 
 var myApp = angular
                 .module("myModule", [])
-                .controller("myController", function ($scope, $http, $log) {
+                .controller("myController", function ($http) {
 
                     var successCallBack = function (response) {
-                        document.getElementById("json").innerHTML = JSON.stringify(response.data, undefined, 2);
+                        document.getElementById("data").innerHTML = JSON.stringify(response.data, undefined, 2);
                     };
 
                     var errorCallBack = function (reason) {
-                        $scope.error = reason.data;
-                        console.log(reason);
+                        document.getElementById("error").innerHTML = JSON.stringify(reason.data, undefined, 2);
                     }
 
                     $http({
