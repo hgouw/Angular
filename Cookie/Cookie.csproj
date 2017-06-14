@@ -84,6 +84,7 @@
   <ItemGroup>
     <Content Include="Index.html" />
     <Content Include="Scripts\Script.js" />
+    <Content Include="Scripts\Script2.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
