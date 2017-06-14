@@ -4,7 +4,7 @@
 var myApp = angular
                 .module("myModule", ["ngCookies"])
                 .controller("myController", function ($http, $cookies) {
-                    var url = "https://devapi-caseanalyser.lexisnexis.com/dev/cookie-reader";
+                    var url = "https://ecc9oe0bo0.execute-api.ap-southeast-2.amazonaws.com/dev/cookie-reader";
 
                     var successCallBack = function (response) {
                         document.getElementById("url").innerHTML = url;
