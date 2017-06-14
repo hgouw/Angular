@@ -83,7 +83,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Index.html" />
-    <Content Include="Scripts\Script.js" />
+    <Content Include="Scripts\Script1.js" />
     <Content Include="Scripts\Script2.js" />
     <Content Include="Scripts\Script3.js" />
     <Content Include="Web.config" />
