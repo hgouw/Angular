@@ -4,11 +4,11 @@
 var myApp = angular
                 .module("myModule", ["ngCookies"])
                 .controller("myController", function ($http, $cookies) {
-                    var url = "https://ecc9oe0bo0.execute-api.ap-southeast-2.amazonaws.com/dev/cookie-reader";
+                    var url = "https://devapi-caseanalyser.lexisnexis.com/dev/cookie-reader2";
 
                     $http.get(url, { withCredentials: true })
                     .then(function (response) {
-                        authCookie = response.data.auth;
-                        document.getElementById("cookie").innerHTML = authCookie;
+                        document.getElementById("url").innerHTML = url;
+                        document.getElementById("data").innerHTML = response.data.auth;
                     });
                 });
