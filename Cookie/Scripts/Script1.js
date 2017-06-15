@@ -10,10 +10,10 @@ var myApp = angular
 
                     if (typeof cookie !== 'undefined') {
                         token = "hca|" + cookie;
-                        url = "https://ecc9oe0bo0.execute-api.ap-southeast-2.amazonaws.com/dev/ca-auth?limit=1&num=1&sort=daten";
+                        url = "https://devapi-caseanalyser.lexisnexis.com/dev/ca-auth?limit=1&num=1&sort=daten";
                     }
                     else {
-                        url = "https://ecc9oe0bo0.execute-api.ap-southeast-2.amazonaws.com/dev/ca-rds?limit=2&num=2&sort=daten";
+                        url = "https://devapi-caseanalyser.lexisnexis.com/dev/ca-rds?limit=2&num=2&sort=daten";
                     }
 
                     var successCallBack = function (response) {
@@ -23,7 +23,7 @@ var myApp = angular
 
                     var errorCallBack = function (reason) {
                         document.getElementById("url").innerHTML = url;
-                        document.getElementById("error").innerHTML = JSON.stringify(reason.data, undefined, 2);
+                        document.getElementById("data").innerHTML = JSON.stringify(reason.data, undefined, 2);
                     }
 
                     $http({
