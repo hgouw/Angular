@@ -2,19 +2,19 @@
 
 var myApp = angular.module("myModule", []);
 
-myApp.controller("myController", function ($scope, $q, Factory) {
-    //Service.cookieReader()
-    //.then(
-    //    function (result) {
-    //        $scope.data = result.auth;
-    //    },
-    //    function (error) {
-    //        $scope.data = error.statusText;
-    //    }
-    //);
+myApp.controller("myController", function ($scope, $q, Factory, Service) {
+    Service.cookieReader()
+    .then(
+        function (result) {
+            $scope.serviceAuth = result.auth;
+        },
+        function (error) {
+            $scope.serviceAuth = error.statusText;
+        }
+    );
 
     Factory.cookieReader()
     .then(function (response) {
-        $scope.data = response.data.auth;
+        $scope.factoryAuth = response.data.auth;
     });
 });

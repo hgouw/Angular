@@ -3,13 +3,15 @@
 <head>
     <script src="Scripts/angular.js"></script>
     <script src="Scripts/Test.js"></script>
+    <script src="Scripts/Factory.js"></script>
     <script src="Scripts/Service.js"></script>
     <title></title>
 	<meta charset="utf-8" />
 </head>
 <body ng-app="myModule">
     <div ng-controller="myController">
-        <h3>{{ data }}</h3>
+        <h3>Auth using factory: {{ factoryAuth }}</h3>
+        <h3>Auth using service: {{ serviceAuth }}</h3>
     </div>
 </body>
 </html>
