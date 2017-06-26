@@ -86,6 +86,7 @@
     <Content Include="Scripts\Script1.js" />
     <Content Include="Scripts\Script2.js" />
     <Content Include="Scripts\Script3.js" />
+    <Content Include="Scripts\Service.js" />
     <Content Include="Scripts\Test.js" />
     <Content Include="Test.html" />
     <Content Include="Web.config" />
