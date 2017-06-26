@@ -8,7 +8,8 @@ myApp.service("AuthService", function ($http, $q) {
     this.cookieReader = function () {
         return $http({
             method: "GET",
-            url: "https://devapi-caseanalyser.lexisnexis.com/dev/ca-rds?limit=2&num=2&sort=daten"
+            withCredentials: true,
+            url: "https://devapi-caseanalyser.lexisnexis.com/dev/cookie-reader2"
         })
         .then(function (response) {
             deferred.resolve(response.data);
@@ -24,7 +25,7 @@ myApp.controller("myController", function ($scope, $q, AuthService) {
     AuthService.cookieReader()
     .then(
         function (result) {
-            $scope.data = result.TotalCases;
+            $scope.data = result.auth;
         },
         function (error) {
             $scope.data = error.statusText;
