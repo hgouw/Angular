@@ -2,8 +2,8 @@
 
 var myApp = angular.module("myModule", []);
 
-myApp.controller("myController", function ($scope, $q, AuthService) {
-    AuthService.cookieReader()
+myApp.controller("myController", function ($scope, $q, Service) {
+    Service.cookieReader()
     .then(
         function (result) {
             $scope.data = result.auth;

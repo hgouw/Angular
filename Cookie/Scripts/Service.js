@@ -1,6 +1,6 @@
 ﻿/// <reference path="Test.js" />
 
-myApp.service("AuthService", function ($http, $q) {
+myApp.service("Service", function ($http, $q) {
     var deferred = $q.defer();
 
     this.cookieReader = function () {
