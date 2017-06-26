@@ -15,6 +15,6 @@ myApp.controller("myController", function ($scope, $q, Factory) {
 
     Factory.cookieReader()
     .then(function (response) {
-        $scope.data = response.data;//.auth;
+        $scope.data = response.data.auth;
     });
 });
