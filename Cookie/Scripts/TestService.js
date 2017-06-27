@@ -2,7 +2,7 @@
 
 var myApp = angular.module("myModule", []);
 
-myApp.controller("myController", function ($scope, $q, Service) {
+myApp.controller("myController", function ($scope, Service) {
     Service.cookieReader()
     .then(
         function (result) {
