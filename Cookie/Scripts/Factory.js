@@ -1,4 +1,4 @@
-﻿/// <reference path="Test.js" />
+﻿/// <reference path="TestFactory.js" />
 
 myApp.factory("Factory", function ($http) {
     return {

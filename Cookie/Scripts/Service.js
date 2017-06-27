@@ -1,4 +1,4 @@
-﻿/// <reference path="Test.js" />
+﻿/// <reference path="TestService.js" />
 
 myApp.service("Service", function ($http, $q) {
     var deferred = $q.defer();
