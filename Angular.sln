@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cookie", "Cookie\Cookie.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForEach", "ForEach\ForEach.csproj", "{8BA490A2-06A4-447F-B9BE-1768E596DA0C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpandCollapse", "ExpandCollapse\ExpandCollapse.csproj", "{F36A783E-1B92-4BE4-B8E0-760DC5111543}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{8BA490A2-06A4-447F-B9BE-1768E596DA0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BA490A2-06A4-447F-B9BE-1768E596DA0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BA490A2-06A4-447F-B9BE-1768E596DA0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F36A783E-1B92-4BE4-B8E0-760DC5111543}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F36A783E-1B92-4BE4-B8E0-760DC5111543}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F36A783E-1B92-4BE4-B8E0-760DC5111543}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F36A783E-1B92-4BE4-B8E0-760DC5111543}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
