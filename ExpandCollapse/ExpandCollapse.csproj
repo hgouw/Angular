@@ -66,6 +66,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Aria Solution.html" />
     <Content Include="JQuery Solution.html" />
     <Content Include="JS Solution.html" />
     <Content Include="packages.config" />
