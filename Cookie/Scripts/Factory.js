@@ -18,6 +18,13 @@ myApp.factory("Factory", function ($http) {
                 },
                 url: 'https://devapi-caseanalyser.lexisnexis.com/dev/ca-auth?limit=1&num=10&sort=daten'
             })
+        },
+
+        apiDownload: function (token) {
+            return $http({
+                method: "GET",
+                url: 'https://devapi-caseanalyser.lexisnexis.com/dev/ca-auth?limit=1&num=10&sort=daten'
+            })
         }
     }
 });
