@@ -20,10 +20,10 @@ myApp.factory("Factory", function ($http) {
             })
         },
 
-        apiDownload: function (token) {
+        apiDownload: function () {
             return $http({
                 method: "GET",
-                url: 'https://devapi-caseanalyser.lexisnexis.com/dev/ca-auth?limit=1&num=10&sort=daten'
+                url: 'https://devapi-caseanalyser.lexisnexis.com/dev/ca-download?limit=1&num=10&sort=daten'
             })
         }
     }
