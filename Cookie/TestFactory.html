@@ -2,6 +2,7 @@
 <html>
 <head>
     <script src="Scripts/angular.js"></script>
+    <script src="Scripts/angular-cookies.js"></script>
     <script src="Scripts/TestFactory.js"></script>
     <script src="Scripts/Factory.js"></script>
     <title></title>
@@ -11,7 +12,9 @@
     <div ng-controller="myController">
         <h3>Auth using factory: {{ factoryAuth }}</h3>
         <br/>
-        <h3>API using factory: {{ factoryApi }}</h3>
+        <h3>API using factory: {{ factoryApiSearch }}</h3>
+        <br />
+        <h3>{{ cookie }}</h3>
     </div>
 </body>
 </html>
