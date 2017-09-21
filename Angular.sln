@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForEach", "ForEach\ForEach.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpandCollapse", "ExpandCollapse\ExpandCollapse.csproj", "{F36A783E-1B92-4BE4-B8E0-760DC5111543}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Check", "Check\Check.csproj", "{4D94F2A2-1588-4F5B-9B78-D7CF30538A7A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{F36A783E-1B92-4BE4-B8E0-760DC5111543}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F36A783E-1B92-4BE4-B8E0-760DC5111543}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F36A783E-1B92-4BE4-B8E0-760DC5111543}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D94F2A2-1588-4F5B-9B78-D7CF30538A7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D94F2A2-1588-4F5B-9B78-D7CF30538A7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D94F2A2-1588-4F5B-9B78-D7CF30538A7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D94F2A2-1588-4F5B-9B78-D7CF30538A7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
