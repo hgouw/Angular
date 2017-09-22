@@ -6,8 +6,8 @@
     <title>Check</title>
 	<meta charset="utf-8" />
 </head>
-<body ng-app="myModule">
-    <div ng-controller="myController">
+<body>
+    <div ng-app="myModule" ng-controller="myController">
         <label>Check me to check both: <input type="checkbox" ng-init="init()" ng-click="toggle()" ng-model="flag"></label><br />
         <input id="checkFollower" type="checkbox" ng-checked="flag" aria-label="Follower input">
     </div>
