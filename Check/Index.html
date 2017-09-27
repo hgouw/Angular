@@ -2,14 +2,37 @@
 <html>
 <head>
     <script src="Scripts/angular.js"></script>
+    <!--
     <script src="Scripts/Script.js"></script>
+    -->
+    <script>
+        var myApp = angular
+                        .module("myModule", [])
+                        .controller("myController", function ($scope) {
+                            $scope.init = function () {
+                                $scope.flag = false;
+                            };
+                            $scope.toggle = function () {
+                                //alert("toggle");
+                                $scope.flag = !filter;
+                            };
+                        });
+    </script>
     <title>Check</title>
 	<meta charset="utf-8" />
 </head>
 <body>
     <div ng-app="myModule" ng-controller="myController">
+        <!--
         <label>Check me to check both: <input type="checkbox" ng-init="init()" ng-click="toggle()" ng-model="flag"></label><br />
         <input id="checkFollower" type="checkbox" ng-checked="flag" aria-label="Follower input">
+        -->
+        <label>
+            <input type="checkbox" ng-click="toggle()" ng-model="flag" ng-checked="flag">
+            <text ng-click="toggle()" ng-model="flag" ng-checked="flag">Link</text>
+            <!--<a ng-click="toggle()" ng-model="flag" ng-checked="flag">Link</a>-->
+            <!--<span ng-click="toggle()" ng-model="flag">Link</span>-->
+        </label>
     </div>
 </body>
 </html>
