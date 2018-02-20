@@ -20,23 +20,27 @@
             document.getElementById("judgementDates").innerHTML = judgementDates;
         }
 
-        //var judgementDates = [1960, 1961, 1962, 1962, 1963, 1964, 1965, 1966, 1967, 1968, 1969, 1970, 1971];
-        //var judgementDates = [1964, 1963, 1962, 1961, 1960, 1959, 1958, 1957, 1956, 1955, 1954, 1953, 1952, 1951, 1950];
-        //var judgementDatesArray = [];
-        //_.each(judgementDates, function (judgementDate) {
-        //    console.log(judgementDate);
-        //    var judgementDateObj = { fieldname: 'iLabsJudgementDate', label: judgementDate, value: judgementDate };
-        //    judgementDatesArray.push(judgementDateObj);
-        //});
-        //console.log("judgementDatesArray");
-        //console.log(judgementDatesArray);
-        //var judgementDates = {
-        //    fieldname: "iLabsJudgementDate",
-        //    items: judgementDatesArray,
-        //    name: "Years"
-        //};
-        //console.log("judgementDates.items");
-        //console.log(judgementDates.items);
+        var judgementDatesArray = [];
+        _.each(judgementDates, function (judgementDate) {
+            var judgementDateObj = { fieldname: 'iLabsJudgementDate', label: judgementDate, value: judgementDate };
+            judgementDatesArray.push(judgementDateObj);
+        });
+        console.log("judgementDatesArray");
+        console.log(judgementDatesArray);
+
+        var judgementDates = {
+            fieldname: "iLabsJudgementDate",
+            items: judgementDatesArray,
+            name: "Years"
+        };
+        console.log("judgementDates.items");
+        console.log(judgementDates.items);
+
+        //var graphData = _.sortBy(judgementDates.items, "label");
+        var graphData = judgementDates.items;
+        console.log("graphData");
+        console.log(graphData);
+
         //var d = judgementDates.reverse();
         //console.log("d");
         //console.log(d);
