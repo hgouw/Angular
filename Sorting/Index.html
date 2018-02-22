@@ -15,29 +15,37 @@
         var judgementDates = [1964, 1963, 1962, 1961, 1960, 1959, 1958, 1957, 1956, 1955, 1954, 1953, 1952, 1951, 1950];
         document.getElementById("judgementDates").innerHTML = judgementDates;
 
+        console.log("judgementDates");
+        console.log(judgementDates);
+
         function myFunction() {
             judgementDates.reverse();
             document.getElementById("judgementDates").innerHTML = judgementDates;
         }
 
+        console.log("judgementDates");
+        console.log(judgementDates);
+
         var judgementDatesArray = [];
         _.each(judgementDates, function (judgementDate) {
+            console.log(judgementDate);
             var judgementDateObj = { fieldname: 'iLabsJudgementDate', label: judgementDate, value: judgementDate };
             judgementDatesArray.push(judgementDateObj);
         });
         console.log("judgementDatesArray");
         console.log(judgementDatesArray);
 
-        var judgementDates = {
+        var xxx = {
             fieldname: "iLabsJudgementDate",
             items: judgementDatesArray,
             name: "Years"
         };
-        console.log("judgementDates.items");
-        console.log(judgementDates.items);
 
-        //var graphData = _.sortBy(judgementDates.items, "label");
-        var graphData = judgementDates.items;
+        console.log("xxx.items");
+        console.log(xxx.items);
+        var graphData = xxx.items.reverse();
+        console.log("xxx.items");
+        console.log(xxx.items);
         console.log("graphData");
         console.log(graphData);
 
